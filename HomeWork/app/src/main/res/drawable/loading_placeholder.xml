@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="ring">
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+            <thickness android:width="10dp"/>
+            <solid android:color="@android:color/darker_gray"/>
+            <gradient
+                android:startColor="@android:color/white"
+                android:endColor="@android:color/black"
+                android:type="sweep"/>
+        </shape>
+    </item>
+</layer-list>
